@@ -221,14 +221,14 @@ Use `console.log()` in JavaScript.
 
 Use `console.log()` in JavaScript.
 
+
 **Code block:**
-```markdown
-```js
+
+<pre><code>```js
 function hello() {
   console.log("Hello, Markdown!");
 }
-```
-```
+```</code></pre>
 
 **Preview:**
 
