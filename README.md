@@ -1,5 +1,22 @@
 # 📘 Markdown Fundamentals
 
+## ⚡ Quick Start Example
+
+Here's a minimal Markdown example and how it looks when rendered:
+
+```markdown
+# My Project
+
+Welcome to my project!
+
+- Easy to use
+- Fast
+- Open source
+
+[Learn more](https://spec.commonmark.org/)
+
+---
+
 A complete guide to **Markdown syntax** – from beginner to advanced. Whether you're writing documentation, READMEs, blog posts, or wikis, this repo will help you master Markdown formatting with real examples.
 
 ---
