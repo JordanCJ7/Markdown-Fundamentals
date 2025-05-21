@@ -228,7 +228,7 @@ function hello() {
   console.log("Hello, Markdown!");
 }
 ```
-```markdown
+```
 
 **Preview:**
 
