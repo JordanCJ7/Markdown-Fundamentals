@@ -18,8 +18,9 @@ Welcome to my project!
 - Fast
 - Open source
 
-[Learn more](https://example.com)
 ```
+[Learn more](https://example.com)
+
 
 ## 📂 Table of Contents
 
@@ -79,8 +80,8 @@ To write Markdown:
 
 ### 📄 Paragraphs & Line Breaks
 
-* Paragraphs are separated by blank lines.
-* Add two spaces at end of a line for a line break.
+* Blank lines separate paragraphs.
+* Add two spaces at the end of a line for a line break.
 
 ```markdown
 This is one paragraph.
