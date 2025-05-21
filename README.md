@@ -1,4 +1,9 @@
 # 📘 Markdown Fundamentals
+---
+
+A complete guide to **Markdown syntax** – from beginner to advanced. Whether you're writing documentation, READMEs, blog posts, or wikis, this repo will help you master Markdown formatting with real examples.
+
+---
 
 ## ⚡ Quick Start Example
 
@@ -13,13 +18,8 @@ Welcome to my project!
 - Fast
 - Open source
 
----
-
-[Learn more](https://spec.commonmark.org/)
-
-A complete guide to **Markdown syntax** – from beginner to advanced. Whether you're writing documentation, READMEs, blog posts, or wikis, this repo will help you master Markdown formatting with real examples.
-
----
+[Learn more](https://example.com)
+```
 
 ## 📂 Table of Contents
 
