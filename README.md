@@ -95,10 +95,15 @@ Use headings to organize your content. The number of `#` symbols indicates the h
 #### H4
 ```
 
+**Preview:**
+# H1
+## H2
+### H3
+#### H4
+
 ### 📄 Paragraphs & Line Breaks
 
-* Paragraphs are separated by blank lines.
-* Add two spaces at end of a line for a line break.
+Separate paragraphs with blank lines. Add two spaces at the end of a line to create a line break.
 
 ```markdown
 This is one paragraph.
@@ -108,6 +113,14 @@ This is another.
 Line one.  
 Line two (after two spaces).
 ```
+
+**Preview:**
+This is one paragraph.
+
+This is another.
+
+Line one.  
+Line two (after two spaces).
 
 ### ✍ Emphasis
 
@@ -121,25 +134,38 @@ Use asterisks or underscores for emphasis. Single for *italic*, double for **bol
 ***bold and italic***
 ```
 
+**Preview:**
+*italic* or _italic_
+
+**bold** or __bold__
+
+***bold and italic***
+
 ### 🔢 Lists
 
 Create unordered lists with dashes or asterisks, and ordered lists with numbers. Indent for nested lists.
 
 **Unordered:**
-
 ```markdown
 - Item A
 - Item B
   - Nested Item
 ```
+**Preview:**
+- Item A
+- Item B
+  - Nested Item
 
 **Ordered:**
-
 ```markdown
 1. First
 2. Second
 3. Third
 ```
+**Preview:**
+1. First
+2. Second
+3. Third
 
 ### 🔗 Links
 
@@ -150,6 +176,10 @@ Add links using `[text](URL)`. You can also paste a URL directly to create an au
 
 <https://github.com>
 ```
+**Preview:**
+[OpenAI](https://openai.com)
+
+<https://github.com>
 
 ### 🖼️ Images
 
@@ -158,6 +188,8 @@ Embed images using `![Alt Text](URL "Title")`. The alt text is important for acc
 ```markdown
 ![Alt Text](https://via.placeholder.com/150 "Image Title")
 ```
+**Preview:**
+![Alt Text](https://via.placeholder.com/150 "Image Title")
 
 ### 💬 Blockquotes
 
@@ -168,30 +200,36 @@ Use `>` to create blockquotes. You can include lists or other Markdown inside bl
 > 
 > - Markdown is awesome
 ```
+**Preview:**
+> This is a blockquote.
+> 
+> - Markdown is awesome
 
 ### 💻 Code
 
 Show inline code with backticks (\`). For code blocks, use triple backticks and specify the language for syntax highlighting.
 
 **Inline code:**
-
 ```markdown
 Use `console.log()` in JavaScript.
 ```
+**Preview:**
+Use `console.log()` in JavaScript.
 
 **Code block:**
-
-<pre>
+```markdown
 ```js
 function hello() {
   console.log("Hello, Markdown!");
 }
 ```
-</pre>
-
----
-
-## 🚀 Advanced Syntax
+```
+**Preview:**
+```js
+function hello() {
+  console.log("Hello, Markdown!");
+}
+```
 
 ### 📊 Tables
 
@@ -203,6 +241,11 @@ Tables let you organize data in rows and columns. Use pipes (|) and dashes (-) t
 | Alice   | Developer |
 | Bob     | Designer  |
 ```
+**Preview:**
+| Name    | Role      |
+|---------|-----------|
+| Alice   | Developer |
+| Bob     | Designer  |
 
 ### ✅ Task Lists
 
@@ -213,6 +256,10 @@ Task lists are checkboxes you can use for to-do items or project tracking. Use `
 - [ ] Learn Markdown
 - [ ] Push to GitHub
 ```
+**Preview:**
+- [x] Install Git
+- [ ] Learn Markdown
+- [ ] Push to GitHub
 
 ### 🧷 Footnotes
 
@@ -223,6 +270,10 @@ Here is a footnote reference[^1].
 
 [^1]: This is the footnote.
 ```
+**Preview:**
+Here is a footnote reference[^1].
+
+[^1]: This is the footnote.
 
 ### 🧱 HTML in Markdown
 
@@ -235,6 +286,12 @@ You can use raw HTML for advanced formatting or features not supported by Markdo
   Hidden content here.
 </details>
 ```
+**Preview:**
+<b>This is bold using HTML</b>
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here.
+</details>
 
 ### 🔽 Collapsible Sections
 
@@ -246,6 +303,11 @@ Collapsible sections let you hide and show content. Use the `<details>` and `<su
   You can hide/show content using this tag.
 </details>
 ```
+**Preview:**
+<details>
+  <summary>More Info</summary>
+  You can hide/show content using this tag.
+</details>
 
 ---
 
