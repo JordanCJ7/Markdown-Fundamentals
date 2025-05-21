@@ -89,7 +89,7 @@ To write Markdown:
 Use headings to organize your content. The number of `#` symbols indicates the heading level (from H1 to H4).
 
 ```markdown
-# H1
+# H1 
 ## H2
 ### H3
 #### H4
@@ -110,14 +110,14 @@ This is one paragraph.
 
 This is another.
 
-Line one.  
-Line two (after two spaces).
+Line one.  Line two.
 ```
 
 **Preview:**
+
 This is one paragraph.
 
-This is another.
+This is another (After enter).
 
 Line one.  
 Line two (after two spaces).
@@ -135,6 +135,7 @@ Use asterisks or underscores for emphasis. Single for *italic*, double for **bol
 ```
 
 **Preview:**
+
 *italic* or _italic_
 
 **bold** or __bold__
@@ -177,6 +178,7 @@ Add links using `[text](URL)`. You can also paste a URL directly to create an au
 <https://github.com>
 ```
 **Preview:**
+
 [OpenAI](https://openai.com)
 
 <https://github.com>
@@ -189,6 +191,7 @@ Embed images using `![Alt Text](URL "Title")`. The alt text is important for acc
 ![Alt Text](https://via.placeholder.com/150 "Image Title")
 ```
 **Preview:**
+
 ![Alt Text](https://via.placeholder.com/150 "Image Title")
 
 ### 💬 Blockquotes
@@ -201,6 +204,7 @@ Use `>` to create blockquotes. You can include lists or other Markdown inside bl
 > - Markdown is awesome
 ```
 **Preview:**
+
 > This is a blockquote.
 > 
 > - Markdown is awesome
@@ -214,6 +218,7 @@ Show inline code with backticks (\`). For code blocks, use triple backticks and 
 Use `console.log()` in JavaScript.
 ```
 **Preview:**
+
 Use `console.log()` in JavaScript.
 
 **Code block:**
