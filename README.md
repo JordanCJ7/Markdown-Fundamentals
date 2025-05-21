@@ -188,11 +188,11 @@ Add links using `[text](URL)`. You can also paste a URL directly to create an au
 Embed images using `![Alt Text](URL "Title")`. The alt text is important for accessibility.
 
 ```markdown
-![Alt Text](https://via.placeholder.com/150 "Image Title")
+![Cute Cat](https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg "Cute Cat")
 ```
 **Preview:**
 
-![Alt Text](https://via.placeholder.com/150 "Image Title")
+![Cute Cat](https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg "Cute Cat")
 
 ### 💬 Blockquotes
 
@@ -220,7 +220,6 @@ Use `console.log()` in JavaScript.
 **Preview:**
 
 Use `console.log()` in JavaScript.
-
 
 **Code block:**
 
