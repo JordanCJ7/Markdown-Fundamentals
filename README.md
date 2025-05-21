@@ -195,6 +195,8 @@ function hello() {
 
 ### 📊 Tables
 
+Tables let you organize data in rows and columns. Use pipes (|) and dashes (-) to create tables.
+
 ```markdown
 | Name    | Role      |
 |---------|-----------|
@@ -204,6 +206,8 @@ function hello() {
 
 ### ✅ Task Lists
 
+Task lists are checkboxes you can use for to-do items or project tracking. Use `- [ ]` for unchecked and `- [x]` for checked items.
+
 ```markdown
 - [x] Install Git
 - [ ] Learn Markdown
@@ -212,6 +216,8 @@ function hello() {
 
 ### 🧷 Footnotes
 
+Footnotes let you add references or extra notes. Use `[^1]` in the text and define the note at the bottom.
+
 ```markdown
 Here is a footnote reference[^1].
 
@@ -219,6 +225,8 @@ Here is a footnote reference[^1].
 ```
 
 ### 🧱 HTML in Markdown
+
+You can use raw HTML for advanced formatting or features not supported by Markdown.
 
 ```markdown
 <b>This is bold using HTML</b>
@@ -229,6 +237,8 @@ Here is a footnote reference[^1].
 ```
 
 ### 🔽 Collapsible Sections
+
+Collapsible sections let you hide and show content. Use the `<details>` and `<summary>` HTML tags.
 
 ```markdown
 <details>
@@ -241,11 +251,11 @@ Here is a footnote reference[^1].
 
 ## 🧬 GitHub-Flavored Markdown
 
-GitHub supports **GFM**, which includes:
+GitHub-Flavored Markdown (GFM) adds extra features like syntax highlighting, task lists, tables, emojis, and mentions.
 
-* Syntax highlighting
-* Task lists
-* Tables
+* Syntax highlighting for code blocks
+* Task lists for project management
+* Tables for structured data
 * Emojis: `:sparkles:` → ✨
 * Mentions: `@user`, `#issue`, etc.
 
@@ -253,19 +263,23 @@ GitHub supports **GFM**, which includes:
 
 ## 🛠️ Tools & Editors
 
-* [Dillinger](https://dillinger.io/)
-* [Obsidian](https://obsidian.md/)
-* [Typora](https://typora.io/)
+Here are some popular tools and editors for writing and previewing Markdown:
+
+* [Dillinger](https://dillinger.io/) – Online Markdown editor
+* [Obsidian](https://obsidian.md/) – Note-taking app with Markdown support
+* [Typora](https://typora.io/) – Minimal Markdown editor
 * [VSCode](https://code.visualstudio.com/) with Markdown Preview
-* [Markdown Live Preview](https://markdownlivepreview.com/)
+* [Markdown Live Preview](https://markdownlivepreview.com/) – Online live preview
 
 ---
 
 ## 📚 Resources
 
-* [CommonMark Spec](https://spec.commonmark.org/)
-* [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
-* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+Helpful resources for learning more about Markdown:
+
+* [CommonMark Spec](https://spec.commonmark.org/) – The official Markdown specification
+* [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) – GitHub's Markdown documentation
+* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) – Quick reference for Markdown syntax
 
 ---
 
