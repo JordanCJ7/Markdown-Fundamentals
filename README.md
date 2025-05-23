@@ -379,6 +379,27 @@ Even experienced users can run into small issues with Markdown. Here are some co
 
 ---
 
+## ♿ Accessibility Tips for Markdown
+
+Writing accessible Markdown ensures your content is usable by everyone, including people using screen readers or assistive technologies:
+
+- **Use semantic headings:**
+  - Structure your document with proper heading levels (`#`, `##`, `###`) to create a logical outline.
+- **Add alt text to images:**
+  - Always provide descriptive alt text in image syntax: `![Description](url)`.
+- **Use meaningful link text:**
+  - Avoid generic phrases like "click here"; instead, describe the link's destination.
+- **Prefer lists for lists:**
+  - Use Markdown list syntax for lists, not just plain text or dashes.
+- **Keep tables simple:**
+  - Use tables only for tabular data, and keep them easy to read.
+- **Avoid using color alone for emphasis:**
+  - Use bold or italics in addition to color to convey meaning.
+
+> Good accessibility helps everyone! For more, see [WebAIM Markdown Accessibility](https://webaim.org/techniques/markdown/).
+
+---
+
 ## ❓ Frequently Asked Questions (FAQ)
 
 **Q: How do I escape special characters in Markdown?**
