@@ -58,6 +58,7 @@ Welcome to my project!
   - [Footnotes](#footnotes)
   - [HTML in Markdown](#html-in-markdown)
   - [Collapsible Sections](#collapsible-sections)
+- [Accessibility Tips for Markdown](#accessibility-tips-for-markdown)
 - [Common Pitfalls in Markdown](#common-pitfalls-in-markdown)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 - [GitHub-Flavored Markdown (GFM)](#github-flavored-markdown)
