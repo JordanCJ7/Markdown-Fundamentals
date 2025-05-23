@@ -50,6 +50,7 @@ Welcome to my project!
   - [Images](#images)
   - [Blockquotes](#blockquotes)
   - [Code](#code)
+- [Common Pitfalls in Markdown](#common-pitfalls-in-markdown)
 - [Advanced Syntax](#advanced-syntax)
   - [Tables](#tables)
   - [Task Lists](#task-lists)
@@ -314,6 +315,38 @@ Collapsible sections let you hide and show content. Use the `<details>` and `<su
   <summary>More Info</summary>
   You can hide/show content using this tag.
 </details>
+
+---
+
+## ⚠️ Common Pitfalls in Markdown
+
+Even experienced users can run into small issues with Markdown. Here are some common mistakes and how to avoid them:
+
+- **Forgetting blank lines before/after lists or code blocks:**
+  - Always leave a blank line before and after lists or code blocks to ensure they render correctly.
+  - Example (incorrect):
+    ```markdown
+    Some text
+    - Item 1
+    - Item 2
+    ```
+  - Example (correct):
+    ```markdown
+    Some text
+
+    - Item 1
+    - Item 2
+    ```
+- **Not indenting nested lists properly:**
+  - Use two spaces for each level of nesting.
+- **Forgetting to close code blocks:**
+  - Always use triple backticks (```) to open and close code blocks.
+- **Incorrect link or image syntax:**
+  - Make sure to use `[text](url)` for links and `![alt](url)` for images.
+- **Using tabs instead of spaces:**
+  - Some Markdown parsers may not handle tabs well; prefer spaces for indentation.
+
+> **Tip:** If something doesn't render as expected, check for missing blank lines or incorrect syntax!
 
 ---
 
