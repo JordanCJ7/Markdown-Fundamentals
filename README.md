@@ -101,6 +101,17 @@ Use headings to organize your content. The number of `#` symbols indicates the h
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%23%20H1%20%0A%23%23%20H2%0A%23%23%23%20H3%0A%23%23%23%23%20H4)
 
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+```
+</details>
+
 **Preview:**
 # H1
 ## H2
@@ -120,8 +131,18 @@ Line one.  Line two.
 ```
 [Live Demo](https://markdownlivepreview.com/?text=This%20is%20one%20paragraph.%0A%0AThis%20is%20another.%0A%0ALine%20one.%20%20Line%20two.)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<p>This is one paragraph.</p>
+<p>This is another.</p>
+<p>Line one.<br>
+Line two.</p>
+```
+</details>
+
+**Preview:**
 This is one paragraph.
 
 This is another (After enter).
@@ -142,8 +163,17 @@ Use asterisks or underscores for emphasis. Single for *italic*, double for **bol
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%2Aitalic%2A%20or%20_italic_%0A%0A%2A%2Abold%2A%2A%20or%20__bold__%0A%0A%2A%2A%2Abold%20and%20italic%2A%2A%2A)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<em>italic</em> or <em>italic</em>
+<strong>bold</strong> or <strong>bold</strong>
+<strong><em>bold and italic</em></strong>
+```
+</details>
+
+**Preview:**
 *italic* or _italic_
 
 **bold** or __bold__
@@ -162,6 +192,21 @@ Create unordered lists with dashes or asterisks, and ordered lists with numbers.
 ```
 [Live Demo](https://markdownlivepreview.com/?text=-%20Item%20A%0A-%20Item%20B%0A%20%20-%20Nested%20Item)
 
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<ul>
+  <li>Item A</li>
+  <li>Item B
+    <ul>
+      <li>Nested Item</li>
+    </ul>
+  </li>
+</ul>
+```
+</details>
+
 **Preview:**
 - Item A
 - Item B
@@ -174,6 +219,18 @@ Create unordered lists with dashes or asterisks, and ordered lists with numbers.
 3. Third
 ```
 [Live Demo](https://markdownlivepreview.com/?text=1.%20First%0A2.%20Second%0A3.%20Third)
+
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+```
+</details>
 
 **Preview:**
 1. First
@@ -191,8 +248,16 @@ Add links using `[text](URL)`. You can also paste a URL directly to create an au
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%5BOpenAI%5D(https%3A%2F%2Fopenai.com)%0A%0A%3Chttps%3A%2F%2Fgithub.com%3E)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<a href="https://openai.com">OpenAI</a>
+<a href="https://github.com">https://github.com</a>
+```
+</details>
+
+**Preview:**
 [OpenAI](https://openai.com)
 
 <https://github.com>
@@ -206,8 +271,15 @@ Embed images using `![Alt Text](URL "Title")`. The alt text is important for acc
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%21%5BCute%20Cat%5D(https%3A%2F%2Fcdn2.thecatapi.com%2Fimages%2FMTY3ODIyMQ.jpg%20%22Cute%20Cat%22))
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Cute Cat" title="Cute Cat">
+```
+</details>
+
+**Preview:**
 ![Cute Cat](https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg "Cute Cat")
 
 ### 💬 Blockquotes
@@ -221,8 +293,20 @@ Use `>` to create blockquotes. You can include lists or other Markdown inside bl
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%3E%20This%20is%20a%20blockquote.%0A%3E%20%0A%3E%20-%20Markdown%20is%20awesome)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<blockquote>
+  <p>This is a blockquote.</p>
+  <ul>
+    <li>Markdown is awesome</li>
+  </ul>
+</blockquote>
+```
+</details>
+
+**Preview:**
 > This is a blockquote.
 > 
 > - Markdown is awesome
@@ -237,8 +321,15 @@ Use `console.log()` in JavaScript.
 ```
 [Live Demo](https://markdownlivepreview.com/?text=Use%20%60console.log()%60%20in%20JavaScript.)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+Use <code>console.log()</code> in JavaScript.
+```
+</details>
+
+**Preview:**
 Use `console.log()` in JavaScript.
 
 **Code block:**
@@ -250,8 +341,18 @@ function hello() {
 ```</code></pre>
 [Live Demo](https://markdownlivepreview.com/?text=%60%60%60js%0Afunction%20hello()%20%7B%0A%20%20console.log(%22Hello%2C%20Markdown!%22)%3B%0A%7D%0A%60%60%60)
 
-**Preview:**
+<details>
+<summary>HTML Preview</summary>
 
+```html
+<pre><code>function hello() {
+  console.log("Hello, Markdown!");
+}
+</code></pre>
+```
+</details>
+
+**Preview:**
 ```js
 function hello() {
   console.log("Hello, Markdown!");
@@ -270,6 +371,22 @@ Tables let you organize data in rows and columns. Use pipes (|) and dashes (-) t
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%7C%20Name%20%20%20%20%7C%20Role%20%20%20%20%20%20%7C%0A%7C---------%7C-----------%7C%0A%7C%20Alice%20%20%20%7C%20Developer%20%7C%0A%7C%20Bob%20%20%20%20%7C%20Designer%20%20%7C)
 
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<table>
+  <thead>
+    <tr><th>Name</th><th>Role</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Alice</td><td>Developer</td></tr>
+    <tr><td>Bob</td><td>Designer</td></tr>
+  </tbody>
+</table>
+```
+</details>
+
 **Preview:**
 | Name    | Role      |
 |---------|-----------|
@@ -287,6 +404,18 @@ Task lists are checkboxes you can use for to-do items or project tracking. Use `
 ```
 [Live Demo](https://markdownlivepreview.com/?text=-%20%5Bx%5D%20Install%20Git%0A-%20%5B%20%5D%20Learn%20Markdown%0A-%20%5B%20%5D%20Push%20to%20GitHub)
 
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<ul>
+  <li><input type="checkbox" checked disabled> Install Git</li>
+  <li><input type="checkbox" disabled> Learn Markdown</li>
+  <li><input type="checkbox" disabled> Push to GitHub</li>
+</ul>
+```
+</details>
+
 **Preview:**
 - [x] Install Git
 - [ ] Learn Markdown
@@ -302,6 +431,19 @@ Here is a footnote reference[^1].
 [^1]: This is the footnote.
 ```
 [Live Demo](https://markdownlivepreview.com/?text=Here%20is%20a%20footnote%20reference%5B%5E1%5D.%0A%0A%5B%5E1%5D%3A%20This%20is%20the%20footnote.)
+
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<p>Here is a footnote reference<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn1">This is the footnote.</li>
+  </ol>
+</div>
+```
+</details>
 
 **Preview:**
 Here is a footnote reference[^1].
@@ -321,6 +463,18 @@ You can use raw HTML for advanced formatting or features not supported by Markdo
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%3Cb%3EThis%20is%20bold%20using%20HTML%3C%2Fb%3E%0A%3Cdetails%3E%0A%20%20%3Csummary%3EClick%20to%20expand%3C%2Fsummary%3E%0A%20%20Hidden%20content%20here.%0A%3C%2Fdetails%3E)
 
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<b>This is bold using HTML</b>
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here.
+</details>
+```
+</details>
+
 **Preview:**
 <b>This is bold using HTML</b>
 <details>
@@ -339,6 +493,17 @@ Collapsible sections let you hide and show content. Use the `<details>` and `<su
 </details>
 ```
 [Live Demo](https://markdownlivepreview.com/?text=%3Cdetails%3E%0A%20%20%3Csummary%3EMore%20Info%3C%2Fsummary%3E%0A%20%20You%20can%20hide%2Fshow%20content%20using%20this%20tag.%0A%3C%2Fdetails%3E)
+
+<details>
+<summary>HTML Preview</summary>
+
+```html
+<details>
+  <summary>More Info</summary>
+  You can hide/show content using this tag.
+</details>
+```
+</details>
 
 **Preview:**
 <details>
