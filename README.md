@@ -350,6 +350,39 @@ Even experienced users can run into small issues with Markdown. Here are some co
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ)
+
+**Q: How do I escape special characters in Markdown?**
+- Use a backslash (`\`) before the character you want to escape. For example, to show a literal asterisk: `\*not italic\*` renders as \*not italic\*.
+
+**Q: How do I add a table of contents?**
+- You can manually create a table of contents using links to section headings. For example:
+  ```markdown
+  - [Introduction](#introduction)
+  - [Usage](#usage)
+  ```
+  Most Markdown renderers (like GitHub) automatically generate anchor links for headings.
+
+**Q: How do I add line breaks?**
+- End a line with two spaces, or use a blank line to start a new paragraph.
+
+**Q: Can I use HTML in Markdown?**
+- Yes! Most Markdown parsers support inline HTML for advanced formatting.
+
+**Q: How do I show raw Markdown (without rendering it)?**
+- Wrap your Markdown in triple backticks (```) to create a code block, or use a single backtick for inline code.
+
+**Q: Why isn't my list or code block rendering correctly?**
+- Make sure you have blank lines before and after lists or code blocks, and use the correct indentation.
+
+**Q: How do I add images with alt text?**
+- Use: `![Alt text](image-url)`
+
+**Q: How do I create checkboxes?**
+- Use `- [ ]` for unchecked and `- [x]` for checked items in a list.
+
+---
+
 ## 🧬 GitHub-Flavored Markdown
 
 GitHub-Flavored Markdown (GFM) adds extra features like syntax highlighting, task lists, tables, emojis, and mentions.
