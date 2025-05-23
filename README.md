@@ -39,6 +39,8 @@ Welcome to my project!
 
 ## 📂 Table of Contents
 
+- [Quick Start Example](#quick-start-example)
+- [Table of Contents](#table-of-contents)
 - [What is Markdown?](#what-is-markdown)
 - [Getting Started](#getting-started)
 - [Basic Syntax](#basic-syntax)
@@ -50,13 +52,14 @@ Welcome to my project!
   - [Images](#images)
   - [Blockquotes](#blockquotes)
   - [Code](#code)
-- [Common Pitfalls in Markdown](#common-pitfalls-in-markdown)
 - [Advanced Syntax](#advanced-syntax)
   - [Tables](#tables)
   - [Task Lists](#task-lists)
   - [Footnotes](#footnotes)
   - [HTML in Markdown](#html-in-markdown)
   - [Collapsible Sections](#collapsible-sections)
+- [Common Pitfalls in Markdown](#common-pitfalls-in-markdown)
+- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 - [GitHub-Flavored Markdown (GFM)](#github-flavored-markdown)
 - [Tools & Editors](#tools--editors)
 - [Resources](#resources)
