@@ -311,6 +311,7 @@ Embed images using `![Alt Text](URL "Title")`. The alt text is important for acc
 </details>
 
 **Preview:**
+
 ![Cute Cat](https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg "Cute Cat")
 
 ### 💬 Blockquotes
