@@ -4,7 +4,7 @@
 layout: default
 
 # Optional: Sets the page title shown in the browser tab and theme header
-title: Welcome
+title: Markdown Fundamentals
 ---
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
