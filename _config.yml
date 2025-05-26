@@ -1,3 +1,25 @@
+# Site settings
 title: Markdown Fundamentals
 description: Whether you're a developer, writer, or productivity nerd, Markdown is one of those tools you can learn in an hour and use for life.
+
+# Theme - uncomment the one you want to use:
+# Official GitHub Pages themes: https://pages.github.com/themes/
+
 theme: jekyll-theme-cayman
+
+# Available themes:
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-midnight
+# theme: jekyll-theme-modernist
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-tactile
+# theme: jekyll-theme-time-machine
+# theme: jekyll-theme-leap-day
+# theme: jekyll-theme-merlot
+# theme: jekyll-theme-architect
+
+# Build settings (optional)
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
