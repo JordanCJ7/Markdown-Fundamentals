@@ -7,8 +7,6 @@ layout: default
 title: Welcome
 ---
 
-# 📘 Markdown Fundamentals
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Markdown-Fundamentals](https://img.shields.io/badge/Guide-Markdown_Fundamentals-blue.svg)](https://github.com/JordanCJ7/Markdown-Fundamentals)
 
